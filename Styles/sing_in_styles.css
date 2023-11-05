@@ -1,0 +1,150 @@
+                    /* Inportaciones de tipografia */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+                    /* Ajustes generales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+                    /* Estilos al header */
+
+.cont_header_sing_in {
+    background-color: #1DBEB4;
+    height: 60px;
+
+}
+.header {
+    display: flex;
+    margin-left: 15px;
+}
+
+                    /* Estilos al nombre y logo del proyecto */
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 10px;
+    position: relative;
+}
+
+.project_name{
+    position: relative;
+    display: flex;
+    top: 12px;
+}
+
+.name1 {
+    color: #096930;
+    padding-left: 5px;
+    font-size: 25px;
+    font-family: sans-serif; 
+}
+
+.name2 {
+    color: white;
+    font-size: 25px;
+    padding-left: 5px;
+    font-family: '', sans-serif;
+}
+
+                    /* Estilos a los formularios */
+
+.container_form{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 90vh;
+    flex-direction: column;
+}
+
+.form {
+    position: relative;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    background: #00000018;
+}
+
+.title {
+    text-align: center;
+    color: #1DBEB4;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-bottom: 20px; 
+}
+
+.form label{
+    color: #383B58;
+    font-family:  sans-serif;
+    margin-top: 10px;
+}
+
+.form input {
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    border: 20px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+input:focus{
+    border: 2px solid #1DBEB4;
+}
+.container_forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.visibility_off{
+    width: 18px;
+    opacity: 0.6;
+    position: absolute;
+    right: 6%;
+    top: 179px;
+    cursor: pointer;
+}
+
+                    /* Estilos al boton de ingreso */
+
+.btn_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.button{
+    background: #096930;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn_login p{
+    margin-top: 10px;
+}
+.btn_login p a{
+    text-decoration: none;
+    color: #1DBEB4;
+}
+                    /* Estilos para movil */
+
+@media screen and (max-width: 425px) {
+
+    .form {
+        width: 280px;
+    }   
+}
+@media screen and (max-width: 320px) {
+
+    .form {
+        width: 240px;
+    }
+}
