@@ -1,16 +1,16 @@
-                    /* Inportaciones de tipografia */
+                    /* Typography imports */
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
-                    /* Ajustes generales */
+                    /* General settings */
 
 *{
     margin: 0;
     padding: 0;
 }
 
-                    /* Estilos al header */
+                    /* Header styles */
 
 .cont_header_sing_in {
     background-color: #1DBEB4;
@@ -22,7 +22,7 @@
     margin-left: 15px;
 }
 
-                    /* Estilos al nombre y logo del proyecto */
+                    /* Styles to project name and logo */
 
 .logo {
     width: 40px;
@@ -52,7 +52,7 @@
     font-family: '', sans-serif;
 }
 
-                    /* Estilos a los formularios */
+                    /* Styles to forms */
 
 .container_form{
     display: flex;
@@ -109,7 +109,7 @@ input:focus{
     cursor: pointer;
 }
 
-                    /* Estilos al boton de ingreso */
+                    /* Styles to the login button */
 
 .btn_login{
     display: flex;
@@ -144,7 +144,7 @@ input:focus{
     text-decoration: none;
     color: #1DBEB4;
 }
-                    /* Estilos para movil */
+                    /* Styles for mobile */
 
 @media screen and (max-width: 425px) {
 
