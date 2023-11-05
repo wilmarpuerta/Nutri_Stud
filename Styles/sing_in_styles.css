@@ -127,6 +127,16 @@ input:focus{
     border-radius: 5px;
 }
 
+.button2{
+    background: #096930;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .btn_login p{
     margin-top: 10px;
 }
