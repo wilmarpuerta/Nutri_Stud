@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Righteous&family=Ubuntu+Mono:wght@700&display=swap');
+
+/* Estilo universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la cabeza (colores de la cabeza) */
+
+header{
+    background-color:#1DBEB4;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Estilos del cuerpo (fondo de la página) */
+
+body{
+    background-image: url(https://us.123rf.com/450wm/yuliamalinovskaya/yuliamalinovskaya1601/yuliamalinovskaya160100049/49905835-alimentos-y-patr%C3%B3n-transparente-de-cocina-fondo-gris-con-iconos-de-la-silueta-de-tema-culinario.jpg);
+}
+
+/* Contenedor principal (del header) */
+
+.container{
+    max-width: 100%px;
+    margin-left: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Logo de la página */
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.link_home{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* Orden del contenedor */
+
+.logo_principal{
+    display: flex;
+}
+
+/* Estilos de la palabra NUTRI */
+
+.container .title1{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #27B43E;             
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Estilos de la palabra STUD */
+
+.container .title2{
+    font-size: 35px;
+    font-family: 'Righteous', sans-serif;
+}
+
+/* Estilos de inicio de sesión */
+
+.bottom .list{
+    list-style: none;
+    padding: 0;
+}
+
+/* Orden de los botones */
+
+.bottom .list .list1{
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+/* Colores de los botones */
+
+.bottom .aa{
+    text-decoration: none;
+    color: #fff;
+} 
+
+/* Diseño del input buscador */
+
+.search{
+    bottom: 7px;
+    left: 50px;
+    right: 100px;
+    top: 10px;
+}
+::placeholder{
+    font-size: 18px;
+}
+
+/* Posición del input buscador */
+
+.search input {
+    position: relative;
+    font-size: 18px;
+    width: 575px;
+    height: 50px;
+    top: -10px;
+    border-radius: 8px;
+    border: none;
+    right: 40px;
+    background-color: rgb(187, 187, 187);
+    padding-left: 10px;
+}
+
+/* Posicion y tamaño de la lupa */
+
+.search img {
+    width: 50px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+}
+
+/* Background de inicio de sesión y registro */
+
+.list .list1{
+    background-color: #27B43E;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Posición y tamaño del contenedor del footer */
+
+.footer{
+    max-width: 100%;
+    display:flex;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 134px;
+    justify-content: space-between;
+}
+
+/* estilos de iconos de redes */
+
+/* Instagram */
+
+.iconig{
+    width: 40px;
+    height: 40px;
+}
+
+/* WhatsApp */
+
+.iconwp{
+    width: 40px;
+    height: 40px;
+}
+
+/* Facebook */
+
+.iconfb{
+    width: 40px;
+    height: 40px;
+}
+
+/* Linked In */
+
+.iconlk{
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilo de título de redes sociales */
+
+.tituloredes{
+    color: whitesmoke;
+    font-family: Inter;
+    letter-spacing: 0em;
+    font-size: 25px;
+}
+
+/* Contenedor de iconos de redes */
+
+.social{
+    position: relative;
+    width: 250px;
+    height: 109px;
+    padding-top: 10px;  
+}
+
+/* Padding de los iconos de las redes */
+
+.iconos_redes{
+    padding-top: 10px;
+}
+
+/* Posición del título */
+
+.container .title{
+    width: 188.43px;
+    height: 46px;
+    top: 17px;
+    left: 136.86px;
+}
+
+/* Posición de categoria */
+
+.categorie{
+    margin-left: 125px;
+}
+
+/* Estilo para el copy del footer */
+
+.copy{
+    color: whitesmoke;
+    position: relative;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+
+/* Posición para el copy del footer */
+
+.copy1{
+    margin-left: 15px;
+}
+
+
+/* Contenedor de cards */
+
+.cards{
+    margin-top: 20px;
+    display: flex;
+}
+
+/* Estilo completo de las categorías */
+
+.categories{
+    background-color: lightgray;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    
+}
+
+/* Orden de cada card */
+
+.card {
+    margin-left: 125px;
+    background: whitesmoke;
+    border-radius: 15px;
+    height: 270px;
+}
+
+
+/* Tamaño de imagen de primera card */
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.category {
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+    color: black;
+}
+
+.cant_product {
+    color: black;
+    opacity: 0.6;
+    margin-left: 15px;
+}
+/* Estilo de títulos de categorías */
+
+.card a {
+    text-decoration: none;
+}
+
+
+/* Estilo de título recommendations */
+
+.recommendation{
+    margin-left: 125px;
+    margin-top: 15px;
+}
+
+/* Estilo de imagen de recommendations */
+
+.img2 {
+    width: 350px;
+    height: 250px;
+}
+
+/* Posición de imagen de recommendations */
+
+.imagen2{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* Estilo de cards de recommendations */
+
+.cards2{
+    margin-top: 20px;
+    display: flex;
+}
+
+/* Posicion de cards de recommendations */
+
+.card2 {
+    margin-left: 145px;
+    background: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+/* Primer space de la primera card */
+
+.photo1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.space1{
+    margin-top: 10px;
+    display: flex;
+    margin-right: 150px;
+    justify-content: space-between;
+}
+
+.name1{
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.number8{
+    background-color: #27B43E;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    height: 15px;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
