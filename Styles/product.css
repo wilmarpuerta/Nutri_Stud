@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Righteous&family=Ubuntu+Mono:wght@700&display=swap');
+
+/* Estilo universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Contenedor principal (del header) */
+
+.container{
+    /* max-width: ; */
+    margin-left: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Logo de la página */
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.link_home{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* Orden del contenedor */
+
+.logo_principal{
+    display: flex;
+}
+
+/* Estilos de la palabra NUTRI */
+
+.container .title1{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #27B43E;             
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Estilos de la palabra STUD */
+
+.container .title2{
+    font-size: 35px;
+    font-family: 'Righteous', sans-serif;
+}
+
+/* Estilos de inicio de sesión */
+
+.bottom .list{
+    list-style: none;
+    padding: 0;
+}
+
+/* Orden de los botones */
+
+.bottom .list .list1{
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+/* Colores de los botones */
+
+.bottom .aa{
+    text-decoration: none;
+    color: #fff;
+} 
+
+/* Diseño del input buscador */
+
+.search{
+    bottom: 7px;
+    left: 50px;
+    right: 100px;
+    top: 10px;
+}
+::placeholder{
+    font-size: 18px;
+}
+
+/* Posición del input buscador */
+
+.search input {
+    position: relative;
+    font-size: 18px;
+    width: 575px;
+    height: 50px;
+    top: -10px;
+    border-radius: 8px;
+    border: none;
+    right: 40px;
+    background-color: rgb(187, 187, 187);
+    padding-left: 10px;
+}
+
+/* Posicion y tamaño de la lupa */
+
+.search img {
+    width: 50px;
+    position: relative;
+    top: 10px;
+    right: 40px;
+}
+
+/* Background de inicio de sesión y registro */
+
+.list .list1{
+    background-color: #27B43E;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+/* Organizo el encabezado y le dio sus debidos estilos  */
+
+header{
+    background-color:#1DBEB4;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+.superior {
+    position: relative;
+    display: inline-flex;
+    top: 100px;
+}
+.hamburguesa1 {
+    height: 400px; 
+    width: 500px;
+    border-radius: 40px;
+}
+.reseña {
+    width: 40%;
+    position: relative;
+    background-color: rgb(176, 173, 173);
+    color: black;
+    top: 60px;
+}
+.us {
+    position: relative;
+    top: 100px;
+}
+.Precio {
+    position: relative;
+    top: 70px;
+}

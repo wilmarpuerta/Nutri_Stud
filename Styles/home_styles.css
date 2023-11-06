@@ -25,7 +25,7 @@ body{
 /* Contenedor principal (del header) */
 
 .container{
-    max-width: 100%px;
+    /* max-width: ; */
     margin-left: 15px;
     display:flex;
     justify-content: space-between;
@@ -138,14 +138,13 @@ body{
 /* Posición y tamaño del contenedor del footer */
 
 .footer{
-    max-width: 100%;
-    display:flex;
-    position: absolute;
-    bottom: 0;
+    width: 100%;
     background-color: black;
+    display:flex;
     width: 100%;
     height: 134px;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 /* estilos de iconos de redes */
@@ -238,7 +237,12 @@ body{
 
 .cards{
     margin-top: 20px;
-    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 270px 300px;
+    gap: 30px;
 }
 
 /* Estilo completo de las categorías */
@@ -253,17 +257,16 @@ body{
 /* Orden de cada card */
 
 .card {
-    margin-left: 125px;
     background: whitesmoke;
     border-radius: 15px;
-    height: 270px;
+    height: 100%;
 }
 
 
 /* Tamaño de imagen de primera card */
 
 .imagen{
-    width: 100%;
+    width: 300px;
     height: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
