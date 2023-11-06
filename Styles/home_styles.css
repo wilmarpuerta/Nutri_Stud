@@ -138,7 +138,6 @@ body{
 /* Posición y tamaño del contenedor del footer */
 
 .footer{
-    width: 100%;
     background-color: black;
     display:flex;
     width: 100%;
