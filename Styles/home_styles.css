@@ -16,6 +16,21 @@ header{
     padding: 10px 0;
 }
 
+/* language change button */
+
+.language{
+    position: absolute;
+    right: 5%;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.lan img{
+    width: 40px;
+    height: 30px;
+}
+
 /* Estilos del cuerpo (fondo de la página) */
 
 body{
@@ -142,7 +157,6 @@ body{
     background-color: black;
     display:flex;
     width: 100%;
-    height: 100px;
     justify-content: space-between;
     margin-top: 50px;
 }
@@ -213,7 +227,7 @@ body{
 /* Posición de categoria */
 
 .categorie{
-    margin-left: 125px;
+    margin-left: 40px;
 }
 
 /* Estilo para el copy del footer */
@@ -237,11 +251,10 @@ body{
 
 .cards{
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 40px;
     margin-right: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 270px 300px;
     gap: 30px;
 }
 
@@ -296,11 +309,19 @@ body{
     text-decoration: none;
 }
 
+/* product container */
+
+.produc_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 10%;
+}
+
 
 /* Estilo de título recommendations */
 
 .recommendation{
-    margin-left: 125px;
+    margin-left: 40px;
     margin-top: 15px;
 }
 
@@ -325,12 +346,13 @@ body{
 .cards2{
     margin-top: 20px;
     display: flex;
+    margin-bottom: 20px;
 }
 
 /* Posicion de cards de recommendations */
 
 .card2 {
-    margin-left: 145px;
+    margin-left: 40px;
     background: whitesmoke;
     border-radius: 15px;
     display: flex;
@@ -369,6 +391,27 @@ body{
     font-size: 20px;
 }
 
+/* Estilos de contenedor de calificacion */
+
+.calificacion{
+    display: flex;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.star{
+display: flex;
+padding-left: 5px;
+list-style: none;
+
+}
+
+.star img{
+    width:15px;
+}
+
+
 
 .information{
     padding: 10px;
@@ -381,7 +424,7 @@ body{
 }
 
 .information h3{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .location a{
