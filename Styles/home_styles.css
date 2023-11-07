@@ -465,3 +465,7 @@ list-style: none;
     border-radius: 5px;
     cursor: pointer;
 }
+.btn_see_more a{
+    text-decoration: none;
+    color:white
+}
