@@ -64,17 +64,19 @@ header{
 
 /* Estilos de inicio de sesión */
 
-.bottom .list{
-    list-style: none;
-    padding: 0;
+.bottom nav{
+    background: #27B43E;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* Orden de los botones */
 
-.bottom .list .list1{
-    display: inline;
-    margin-right: 20px;
+.bottom {
+    display: flex;
+    /* margin-right: 20px; */
     font-size: 25px;
+    gap: 10px;
 }
 
 /* Colores de los botones */
@@ -154,33 +156,7 @@ header{
     width: 100%;
 }
 
-.calificacion{
-    display: flex;
-    margin-top: 30px;
-    padding-bottom: 10px;
-}
-
-.star{
-display: flex;
-padding-left: 10px;
-/* list-style: none; */
-}
-
-.descrition {
-    margin-bottom: 15px;
-}
-
-.descrition h3{
-    margin-bottom: 10px;
-}
-
-.ingredientes h3{
-    margin-bottom: 15px;
-}
-
-.ingredientes ul{
-    margin-left: 15px;
-}
+/* Estilos de la seccion de compra */
 
 .cont_buy{
     width: 400px;
@@ -188,6 +164,11 @@ padding-left: 10px;
     padding-top: 30px;
     background: rgba(0, 0, 0, 0.12);
     border-radius: 10px;
+}
+
+.cont_buy a{
+    text-decoration: none;
+    color: #1DBEB4;
 }
 
 .envio{
@@ -201,6 +182,32 @@ padding-left: 10px;
     margin-bottom: 50px;
 }
 
+.Precio{
+    font-size: 30px;
+}
+
+.cant_unidad{
+    display: flex;
+}
+
+.cant_unidad p{
+    opacity: 0.6;
+}
+
+.cant_unidad label{
+    color: #383B58;
+}
+
+
+.cant_unidad select{
+    background: none;
+    border:none;
+    margin-right: 5px;
+}
+.cant_unidad select:focus{
+    border: none;
+}
+
 .btn_buy{
     width: 95%;
     margin-left: 5px;
@@ -211,6 +218,7 @@ padding-left: 10px;
     background: #1DBEB4;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn_add{
@@ -223,7 +231,10 @@ padding-left: 10px;
     background: #1dbeb337;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
+
+/* Estilos al contenedor de la informacion del producto */
 
 .info_product {
     margin-left: 40px;
@@ -247,6 +258,123 @@ padding-left: 10px;
     border-radius: 50%;
 }
 
+/* Estilos de contenedor de calificacion */
+
+.calificacion{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+.star{
+display: flex;
+padding-left: 5px;
+list-style: none;
+
+}
+
+.star img{
+    width:15px;
+}
+
+/* contenedor de descripcion */
+
+.descrition {
+    margin-bottom: 15px;
+}
+
+.descrition h3{
+    margin-bottom: 10px;
+}
+
+.ingredientes h3{
+    margin-bottom: 15px;
+}
+
+.ingredientes ul{
+    margin-left: 15px;
+}
+
+/* Boton de whatsapp */
+
+.btn_whatsapp{
+    position: fixed;
+    right: 5%;
+    top: 80%;
+}
+
+/* Estilos del contenedor de comentarios */
+
+.comments{
+    padding-top: 30px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.comment{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.perfil img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.perfil strong{
+    font-size: 20px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment{
+    background: #FFF2AD;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.comment p{
+margin-top: 20px;
+}
+
+
+.review{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Styles recommendation container  */
+
+.recomendation{
+    padding-top: 30px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+/* Styles location container  */
+
+.Location{
+    padding-top: 30px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.ubi_outlet{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.ubi_outlet iframe{
+    border-radius: 10px;
+  
+}
 
 /* Posición y tamaño del contenedor del footer */
 
@@ -327,3 +455,16 @@ padding-left: 10px;
 .copy1{
     margin-left: 15px;
 }
+
+/* Estilos del header responsive */
+
+@media screen and (max-width: 1265px) {
+.search input{
+    width: 450px;
+}
+}
+@media screen and (max-width: 1130px) {
+    .search input{
+        width: 350px;
+    }
+    }
