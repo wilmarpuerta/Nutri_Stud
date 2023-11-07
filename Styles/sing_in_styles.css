@@ -1,7 +1,7 @@
                     /* Typography imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Ubuntu+Mono:wght@700&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Righteous&family=Ubuntu+Mono:wght@700&display=swap');
 
                     /* General settings */
 
@@ -14,42 +14,56 @@
 
 .cont_header_sing_in {
     background-color: #1DBEB4;
-    height: 60px;
-
-}
-.header {
+    height: 80px;
     display: flex;
+    align-items: center;
+}
+
+.header { 
     margin-left: 15px;
 }
 
                     /* Styles to project name and logo */
 
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    top: 10px;
+    /* top: 10px; */
     position: relative;
 }
 
 .project_name{
     position: relative;
     display: flex;
-    top: 12px;
+    align-items: center;
 }
 
 .name1 {
-    color: #096930;
+    color: #27B43E;
     padding-left: 5px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: sans-serif; 
 }
 
 .name2 {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 5px;
-    font-family: '', sans-serif;
+    font-family: 'Righteous', sans-serif;
+}
+
+.link_home{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* Order of the container logo */
+
+.primary_logo{
+    display: flex;
+    align-items: center;
+
 }
 
                     /* Styles to forms */
@@ -58,7 +72,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;     
-    height: 90vh;
+    height: 80vh;
     flex-direction: column;
 }
 
@@ -120,7 +134,7 @@ input:focus{
 }
 
 .button{
-    background: #096930;
+    background: #27B43E;
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -128,7 +142,7 @@ input:focus{
 }
 
 .button2{
-    background: #096930;
+    background: #27B43E;
     text-decoration: none;
     color: white;
     padding: 10px;

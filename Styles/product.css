@@ -29,8 +29,8 @@ header{
 /* Logo de la página */
 
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 
@@ -41,14 +41,14 @@ header{
 
 /* Orden del contenedor */
 
-.logo_principal{
+.primary_logo{
     display: flex;
 }
 
 /* Estilos de la palabra NUTRI */
 
 .container .title1{
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 10px;
     padding-right: 5px;
     color: #27B43E;             
@@ -58,7 +58,7 @@ header{
 /* Estilos de la palabra STUD */
 
 .container .title2{
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Righteous', sans-serif;
 }
 
